@@ -2,6 +2,9 @@
 
 A new Flutter application.
 
+this app is made using opemweathermap API and flutter bloc
+It involves API calls,fetching data,state management,bloc. 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

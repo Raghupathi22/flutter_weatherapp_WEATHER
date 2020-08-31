@@ -49,6 +49,7 @@ class WeatherModel{
 String getClockInUtcPlus3Hours(int timeSinceEpochInSec) {
   final time = DateTime.fromMillisecondsSinceEpoch(timeSinceEpochInSec * 1000,
           isUtc: true)
-      .add(const Duration(hours: 3));
+      .add(const Duration(hours: 5 , minutes: 30
+));
   return '${time.hour}:${time.second}';
 }
